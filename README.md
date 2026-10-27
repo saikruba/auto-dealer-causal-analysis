@@ -67,13 +67,13 @@ Each finding is labelled with the strength of evidence behind it:
 
 Bookings, allocations and invoices all collapse in June 2025 and recover immediately in July. A drop of this size, in every stage at once, is not consistent with trading and is treated as an ingestion anomaly. The month is excluded from downstream analysis.
 
-![June 2025 anomaly](reports/figures/monthly_volumes.pdf)
+![June 2025 anomaly](reports/figures/monthly_volumes.png)
 
 ### 2. Cohort maturity: why recent conversion looks poor
 
 Cohort invoice rate rises with cohort age and plateaus at 100% by month 3, so the maturity age is derived from the oldest cohorts rather than assumed. The three most recent cohorts are younger than that, so their rates are incomplete. Reading them as final would suggest a conversion collapse that has not happened.
 
-![Cohort invoice rate by age](reports/figures/cohort_invoice_rate_by_age.pdf)
+![Cohort invoice rate by age](reports/figures/cohort_invoice_rate_by_age.png)
 
 **Answer to "what changed in Oct–Dec 2025?":** nothing has shown up as changed yet. The apparent decline is right-censoring.
 
@@ -81,7 +81,7 @@ Cohort invoice rate rises with cohort age and plateaus at 100% by month 3, so th
 
 The lag distribution is the first difference of the cumulative cohort invoice rate (share at lag *k* = rate at age *k* − rate at age *k−1*).
 
-![Invoice lag distribution](reports/figures/invoice_lag_profile.pdf)
+![Invoice lag distribution](reports/figures/invoice_lag_profile.png)
 
 ### 4. Lag estimation: regression method (in progress)
 
