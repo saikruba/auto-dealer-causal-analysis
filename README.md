@@ -56,7 +56,7 @@ Each finding is labelled with the strength of evidence behind it:
 ## Key findings
 
 | # | Finding | Evidence level | Result | 
-|---|---|---|---|---|
+|---|---|---|---|
 | 1 | June 2025 volume is consistent with a data ingestion anomaly, not trading | Descriptive | 2,409 bookings vs. a monthly mean of 17,093 excluding June (−85.9%). Ratio to median 0.141; every other month ≥ 0.85 |
 | 2 | Oct–Dec 2025 invoice conversion is not a business decline: these cohorts are immature (right-censored) | Descriptive | Cohort ages 2, 1, 0 months vs. a data-derived maturity age of 3 months. Observed invoice rates 84.4%, 54.9%, 0.0%. 20,037 invoices not yet issued |
 | 3 | Allocation → invoice lag distribution (cohort method) | Descriptive | Lag 1: 54.9%, Lag 2: 29.5%, Lag 3: 15.6%. No invoicing in the allocation month; none after lag 3 | Complete |
