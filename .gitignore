@@ -1,0 +1,16 @@
+# Data (not committed)
+data/*.csv
+data/*.zip
+data/*.json
+
+# Notebook and Python temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+venv/
+
+# OS files
+.DS_Store
